@@ -1,0 +1,152 @@
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 50px 0px;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 40px 0px;
+   
+    h3{
+        font-size: 28px;
+        color: #f8f9fa;
+        font-weight: 300;
+        span{
+            font-weight: 700;
+        }
+    }
+    ul{
+        
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        
+        a{
+            text-decoration: none;
+            color: #ffffff66;
+            &:hover{
+                color: #bac964;
+            }
+        }
+        .all{
+            color: #bac964;
+        }
+    }
+    
+}
+
+
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+h2{
+    font-size: 25px;
+    margin: 30px 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.productsItem{
+    display: flex;
+    flex-direction: column;
+   height: 510px;
+   justify-content: space-between;
+   margin: 10px 20px;
+   align-items: center;
+   width: 330px;
+   text-align: center;
+   
+
+}
+img{
+    height: 310px;
+    width: 100%;
+    background-color: #27303F;
+    background-image: linear-gradient(205deg, #27303F 50%,#4d6181 );
+}
+ span{
+    color: #cad878;
+    margin: 5px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.cart , .wish{
+    margin-bottom: 5px;
+    border-radius: 10%;
+    font-size: 13px;
+    background-color: white;
+    color: red;
+
+}
+.add{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    button{
+        margin: 20px 0px;
+        font-size: 25px;
+        background-color: transparent;
+        border: none;
+        color: #949494;
+        &:hover{
+            color: #bac964;
+        }
+    }
+}
+
+}
+.pages{
+    margin: 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    button{
+        padding: 10px 12px;
+        background-color: transparent;
+        border: 1px solid rgb(97, 96, 96);
+        color: white;
+        font-size: 10px;
+        &:active{
+            border: 1px solid #bac964;
+            color: #bac964;
+        }
+    }
+}
